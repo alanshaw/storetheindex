@@ -6,13 +6,13 @@ import (
 	"net"
 	"net/http"
 
+	"github.com/alanshaw/storetheindex/ingest"
+	"github.com/alanshaw/storetheindex/internal/metrics"
+	"github.com/alanshaw/storetheindex/internal/metrics/pprof"
+	"github.com/alanshaw/storetheindex/registry"
 	logging "github.com/ipfs/go-log/v2"
 	indexer "github.com/ipni/go-indexer-core"
 	coremetrics "github.com/ipni/go-indexer-core/metrics"
-	"github.com/ipni/storetheindex/ingest"
-	"github.com/ipni/storetheindex/internal/metrics"
-	"github.com/ipni/storetheindex/internal/metrics/pprof"
-	"github.com/ipni/storetheindex/registry"
 	"github.com/libp2p/go-libp2p/core/peer"
 )
 

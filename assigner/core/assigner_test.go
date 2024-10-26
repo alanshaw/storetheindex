@@ -13,10 +13,10 @@ import (
 	"testing"
 	"time"
 
+	"github.com/alanshaw/storetheindex/admin/model"
+	"github.com/alanshaw/storetheindex/assigner/config"
+	"github.com/alanshaw/storetheindex/assigner/core"
 	"github.com/ipfs/go-cid"
-	"github.com/ipni/storetheindex/admin/model"
-	"github.com/ipni/storetheindex/assigner/config"
-	"github.com/ipni/storetheindex/assigner/core"
 	"github.com/libp2p/go-libp2p/core/peer"
 	"github.com/multiformats/go-multiaddr"
 	"github.com/stretchr/testify/require"

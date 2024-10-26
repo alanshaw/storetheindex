@@ -7,8 +7,8 @@ import (
 	"os/signal"
 	"syscall"
 
-	"github.com/ipni/storetheindex/assigner/command"
-	"github.com/ipni/storetheindex/internal/revision"
+	"github.com/alanshaw/storetheindex/assigner/command"
+	"github.com/alanshaw/storetheindex/internal/revision"
 	"github.com/urfave/cli/v2"
 )
 

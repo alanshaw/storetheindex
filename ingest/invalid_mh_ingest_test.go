@@ -4,8 +4,8 @@ import (
 	"context"
 	"testing"
 
+	"github.com/alanshaw/storetheindex/test/typehelpers"
 	cidlink "github.com/ipld/go-ipld-prime/linking/cid"
-	"github.com/ipni/storetheindex/test/typehelpers"
 	"github.com/libp2p/go-libp2p/core/peer"
 	"github.com/multiformats/go-multihash"
 	"github.com/stretchr/testify/require"

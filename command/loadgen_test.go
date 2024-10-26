@@ -12,9 +12,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ipni/storetheindex/command"
-	"github.com/ipni/storetheindex/command/loadgen"
-	"github.com/ipni/storetheindex/config"
+	"github.com/alanshaw/storetheindex/command"
+	"github.com/alanshaw/storetheindex/command/loadgen"
+	"github.com/alanshaw/storetheindex/config"
 	"github.com/stretchr/testify/require"
 	"github.com/urfave/cli/v2"
 )

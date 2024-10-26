@@ -8,7 +8,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ipni/storetheindex/fsutil"
+	"github.com/alanshaw/storetheindex/fsutil"
 	"github.com/stretchr/testify/require"
 )
 

@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/ipni/storetheindex/config"
-	"github.com/ipni/storetheindex/peerutil"
+	"github.com/alanshaw/storetheindex/config"
+	"github.com/alanshaw/storetheindex/peerutil"
 	"github.com/libp2p/go-libp2p/core/peer"
 )
 

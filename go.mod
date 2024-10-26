@@ -1,4 +1,4 @@
-module github.com/ipni/storetheindex
+module github.com/alanshaw/storetheindex
 
 go 1.22
 

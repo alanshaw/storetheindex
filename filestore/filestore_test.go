@@ -10,8 +10,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ipni/storetheindex/filestore"
-	"github.com/ipni/storetheindex/fsutil"
+	"github.com/alanshaw/storetheindex/filestore"
+	"github.com/alanshaw/storetheindex/fsutil"
 	"github.com/stretchr/testify/require"
 
 	"github.com/orlangure/gnomock"

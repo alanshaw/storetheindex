@@ -8,8 +8,8 @@ import (
 	"strings"
 	"time"
 
+	"github.com/alanshaw/storetheindex/command/loadgen"
 	"github.com/ipni/go-libipni/find/client"
-	"github.com/ipni/storetheindex/command/loadgen"
 	"github.com/multiformats/go-multihash"
 	"github.com/urfave/cli/v2"
 )

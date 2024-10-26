@@ -4,10 +4,10 @@ import (
 	"context"
 	"testing"
 
+	"github.com/alanshaw/storetheindex/carstore"
+	"github.com/alanshaw/storetheindex/filestore"
 	"github.com/ipfs/go-datastore"
 	cidlink "github.com/ipld/go-ipld-prime/linking/cid"
-	"github.com/ipni/storetheindex/carstore"
-	"github.com/ipni/storetheindex/filestore"
 	"github.com/libp2p/go-libp2p/core/peer"
 	"github.com/stretchr/testify/require"
 )

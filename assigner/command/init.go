@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/ipni/storetheindex/assigner/config"
-	sticfg "github.com/ipni/storetheindex/config"
-	"github.com/ipni/storetheindex/fsutil"
+	"github.com/alanshaw/storetheindex/assigner/config"
+	sticfg "github.com/alanshaw/storetheindex/config"
+	"github.com/alanshaw/storetheindex/fsutil"
 	"github.com/urfave/cli/v2"
 )
 

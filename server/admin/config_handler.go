@@ -5,8 +5,8 @@ import (
 	"net/http"
 	"sort"
 
+	"github.com/alanshaw/storetheindex/internal/httpserver"
 	logging "github.com/ipfs/go-log/v2"
-	"github.com/ipni/storetheindex/internal/httpserver"
 )
 
 // setLogLevel sets the log level for a subsystem matched using regular expression.

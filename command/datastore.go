@@ -8,12 +8,12 @@ import (
 	"strings"
 	"time"
 
+	"github.com/alanshaw/storetheindex/config"
+	"github.com/alanshaw/storetheindex/fsutil"
 	"github.com/ipfs/go-cid"
 	"github.com/ipfs/go-datastore"
 	"github.com/ipfs/go-datastore/query"
 	leveldb "github.com/ipfs/go-ds-leveldb"
-	"github.com/ipni/storetheindex/config"
-	"github.com/ipni/storetheindex/fsutil"
 )
 
 const (

@@ -7,9 +7,9 @@ import (
 	"strconv"
 	"time"
 
+	"github.com/alanshaw/storetheindex/fsutil/disk"
 	"github.com/ipfs/go-datastore"
 	logging "github.com/ipfs/go-log/v2"
-	"github.com/ipni/storetheindex/fsutil/disk"
 )
 
 var log = logging.Logger("indexer/freezer")

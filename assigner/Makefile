@@ -5,7 +5,7 @@ BIN := assigner
 all: vet test build
 
 build:
-	go build -ldflags "-X 'github.com/ipni/storetheindex/internal/version.GitVersion=$(git rev-list -1 HEAD)'"
+	go build -ldflags "-X 'github.com/alanshaw/storetheindex/internal/version.GitVersion=$(git rev-list -1 HEAD)'"
 
 install:
 	go install

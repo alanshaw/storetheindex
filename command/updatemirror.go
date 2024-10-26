@@ -10,9 +10,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ipni/storetheindex/carstore"
-	"github.com/ipni/storetheindex/config"
-	"github.com/ipni/storetheindex/filestore"
+	"github.com/alanshaw/storetheindex/carstore"
+	"github.com/alanshaw/storetheindex/config"
+	"github.com/alanshaw/storetheindex/filestore"
 	"github.com/urfave/cli/v2"
 )
 

@@ -6,8 +6,8 @@ import (
 	"os"
 	"path/filepath"
 
-	sticfg "github.com/ipni/storetheindex/config"
-	"github.com/ipni/storetheindex/fsutil"
+	sticfg "github.com/alanshaw/storetheindex/config"
+	"github.com/alanshaw/storetheindex/fsutil"
 )
 
 // Config is used to load config files.

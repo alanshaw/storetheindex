@@ -10,10 +10,10 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/alanshaw/storetheindex/server/find"
 	"github.com/ipfs/go-cid"
 	"github.com/ipfs/go-test/random"
 	"github.com/ipni/go-indexer-core"
-	"github.com/ipni/storetheindex/server/find"
 	"github.com/libp2p/go-libp2p/core/peer"
 	"github.com/multiformats/go-multiaddr"
 	"github.com/multiformats/go-multihash"

@@ -4,7 +4,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/ipni/storetheindex/admin/client"
+	"github.com/alanshaw/storetheindex/admin/client"
 	"github.com/urfave/cli/v2"
 )
 

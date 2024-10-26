@@ -7,7 +7,7 @@ import (
 	"os/signal"
 	"syscall"
 
-	"github.com/ipni/storetheindex/command"
+	"github.com/alanshaw/storetheindex/command"
 	"github.com/urfave/cli/v2"
 )
 

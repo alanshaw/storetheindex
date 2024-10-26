@@ -16,12 +16,12 @@ import (
 	"testing"
 	"time"
 
+	"github.com/alanshaw/storetheindex/carstore"
+	"github.com/alanshaw/storetheindex/config"
+	"github.com/alanshaw/storetheindex/filestore"
 	testcmd "github.com/ipfs/go-test/cmd"
 	findclient "github.com/ipni/go-libipni/find/client"
 	"github.com/ipni/go-libipni/find/model"
-	"github.com/ipni/storetheindex/carstore"
-	"github.com/ipni/storetheindex/config"
-	"github.com/ipni/storetheindex/filestore"
 	"github.com/multiformats/go-multihash"
 	"github.com/stretchr/testify/require"
 )

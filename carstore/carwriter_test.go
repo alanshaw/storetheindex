@@ -8,6 +8,8 @@ import (
 	"io/fs"
 	"testing"
 
+	"github.com/alanshaw/storetheindex/carstore"
+	"github.com/alanshaw/storetheindex/filestore"
 	"github.com/ipfs/go-datastore"
 	"github.com/ipfs/go-test/random"
 	car "github.com/ipld/go-car/v2"
@@ -16,8 +18,6 @@ import (
 	"github.com/ipld/go-ipld-prime"
 	cidlink "github.com/ipld/go-ipld-prime/linking/cid"
 	"github.com/ipni/go-libipni/ingest/schema"
-	"github.com/ipni/storetheindex/carstore"
-	"github.com/ipni/storetheindex/filestore"
 	crypto "github.com/libp2p/go-libp2p/core/crypto"
 	"github.com/libp2p/go-libp2p/core/peer"
 	"github.com/multiformats/go-multicodec"

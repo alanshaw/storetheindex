@@ -1,7 +1,7 @@
 package command
 
 import (
-	"github.com/ipni/storetheindex/assigner/command"
+	"github.com/alanshaw/storetheindex/assigner/command"
 	"github.com/urfave/cli/v2"
 )
 

@@ -5,11 +5,11 @@ import (
 	"fmt"
 	"reflect"
 
+	"github.com/alanshaw/storetheindex/carstore"
+	"github.com/alanshaw/storetheindex/config"
+	"github.com/alanshaw/storetheindex/filestore"
 	"github.com/ipfs/go-cid"
 	"github.com/ipfs/go-datastore"
-	"github.com/ipni/storetheindex/carstore"
-	"github.com/ipni/storetheindex/config"
-	"github.com/ipni/storetheindex/filestore"
 	"github.com/libp2p/go-libp2p/core/peer"
 )
 

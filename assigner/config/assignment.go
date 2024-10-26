@@ -3,7 +3,7 @@ package config
 import (
 	"time"
 
-	sticfg "github.com/ipni/storetheindex/config"
+	sticfg "github.com/alanshaw/storetheindex/config"
 )
 
 // Assignment holds addresses of indexers to assign publishers to, policy

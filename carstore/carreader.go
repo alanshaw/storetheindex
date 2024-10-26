@@ -8,11 +8,11 @@ import (
 	"fmt"
 	"io"
 
+	"github.com/alanshaw/storetheindex/filestore"
 	"github.com/ipfs/go-cid"
 	car "github.com/ipld/go-car/v2"
 	"github.com/ipld/go-ipld-prime/node/basicnode"
 	"github.com/ipni/go-libipni/ingest/schema"
-	"github.com/ipni/storetheindex/filestore"
 	"github.com/libp2p/go-libp2p/core/peer"
 )
 

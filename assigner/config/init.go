@@ -3,7 +3,7 @@ package config
 import (
 	"io"
 
-	sticfg "github.com/ipni/storetheindex/config"
+	sticfg "github.com/alanshaw/storetheindex/config"
 )
 
 func Init(out io.Writer) (*Config, error) {

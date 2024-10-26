@@ -5,9 +5,9 @@ import (
 	"math/rand"
 	"testing"
 
+	"github.com/alanshaw/storetheindex/config"
+	"github.com/alanshaw/storetheindex/test/typehelpers"
 	cidlink "github.com/ipld/go-ipld-prime/linking/cid"
-	"github.com/ipni/storetheindex/config"
-	"github.com/ipni/storetheindex/test/typehelpers"
 	"github.com/libp2p/go-libp2p/core/peer"
 	"github.com/stretchr/testify/require"
 )

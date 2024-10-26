@@ -1,7 +1,7 @@
 package config
 
 import (
-	"github.com/ipni/storetheindex/filestore"
+	"github.com/alanshaw/storetheindex/filestore"
 )
 
 // Mirror configures if, how, and where to store content advertisements data in

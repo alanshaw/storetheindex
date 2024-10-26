@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/ipni/storetheindex/config"
+	"github.com/alanshaw/storetheindex/config"
 	"github.com/stretchr/testify/require"
 	"github.com/urfave/cli/v2"
 )

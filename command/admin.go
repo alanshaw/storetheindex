@@ -6,9 +6,9 @@ import (
 	"net/url"
 	"strings"
 
+	"github.com/alanshaw/storetheindex/admin/client"
+	"github.com/alanshaw/storetheindex/rate"
 	"github.com/ipfs/go-cid"
-	"github.com/ipni/storetheindex/admin/client"
-	"github.com/ipni/storetheindex/rate"
 	"github.com/libp2p/go-libp2p/core/peer"
 	"github.com/multiformats/go-multiaddr"
 	"github.com/urfave/cli/v2"

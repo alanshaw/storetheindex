@@ -6,11 +6,11 @@ import (
 	"fmt"
 	"time"
 
+	"github.com/alanshaw/storetheindex/config"
+	"github.com/alanshaw/storetheindex/filestore"
+	"github.com/alanshaw/storetheindex/gc/reaper"
 	"github.com/ipni/go-indexer-core/store/dhstore"
 	"github.com/ipni/go-libipni/pcache"
-	"github.com/ipni/storetheindex/config"
-	"github.com/ipni/storetheindex/filestore"
-	"github.com/ipni/storetheindex/gc/reaper"
 	"github.com/libp2p/go-libp2p/core/peer"
 	"github.com/urfave/cli/v2"
 )

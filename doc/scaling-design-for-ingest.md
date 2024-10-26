@@ -133,11 +133,11 @@ At a minimum, there should be as many active indexer nodes as required to meet t
 
 ### Replication
 
-The AS has a configurable [`Replication`](https://pkg.go.dev/github.com/ipni/storetheindex@v0.5.7/assigner/config#Assignment) value that determines how many indexers each publisher is assigned to. Setting this value greater than one provides redundancy of index content. With this, the loss or unavailability of an indexer does not result in the loss or unavailability of index data.
+The AS has a configurable [`Replication`](https://pkg.go.dev/github.com/alanshaw/storetheindex@v0.5.7/assigner/config#Assignment) value that determines how many indexers each publisher is assigned to. Setting this value greater than one provides redundancy of index content. With this, the loss or unavailability of an indexer does not result in the loss or unavailability of index data.
 
 ## Indexer Frozen Mode
 
-When an indexer’s storage usage reaches its configured limit, [`FreezeAtPercent`](https://pkg.go.dev/github.com/ipni/storetheindex/config#Indexer) (default 90%), the indexer automatically enters “frozen” mode. This is a mode of operation where the indexer does not store any new index data, but still processes updates and deletions of index data. A frozen indexer will not accept any new publisher assignments.
+When an indexer’s storage usage reaches its configured limit, [`FreezeAtPercent`](https://pkg.go.dev/github.com/alanshaw/storetheindex/config#Indexer) (default 90%), the indexer automatically enters “frozen” mode. This is a mode of operation where the indexer does not store any new index data, but still processes updates and deletions of index data. A frozen indexer will not accept any new publisher assignments.
 
 Provider information is still updated to reflect that the indexer is still handling ads, but contains an additional “FrozenAt” and “FrozenAtTime” to give the advertisement CID ingested before the freeze and the time the indexer became frozen. Internally the indexer tracks where in the ad chain it has read for the purpose of ingesting update and removal ads. The indexer continues to respond to any queries for index data.
 

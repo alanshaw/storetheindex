@@ -6,9 +6,9 @@ import (
 	"path/filepath"
 	"testing"
 
+	"github.com/alanshaw/storetheindex/fsutil/disk"
+	"github.com/alanshaw/storetheindex/internal/freeze"
 	"github.com/ipfs/go-datastore"
-	"github.com/ipni/storetheindex/fsutil/disk"
-	"github.com/ipni/storetheindex/internal/freeze"
 	"github.com/stretchr/testify/require"
 )
 

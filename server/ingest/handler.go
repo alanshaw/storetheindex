@@ -6,13 +6,13 @@ import (
 	"fmt"
 	"net/http"
 
+	"github.com/alanshaw/storetheindex/ingest"
+	"github.com/alanshaw/storetheindex/registry"
 	"github.com/ipfs/go-cid"
 	"github.com/ipni/go-indexer-core"
 	"github.com/ipni/go-libipni/announce/message"
 	"github.com/ipni/go-libipni/apierror"
 	"github.com/ipni/go-libipni/ingest/model"
-	"github.com/ipni/storetheindex/ingest"
-	"github.com/ipni/storetheindex/registry"
 	"github.com/libp2p/go-libp2p/core/peer"
 )
 

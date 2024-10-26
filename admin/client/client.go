@@ -13,10 +13,10 @@ import (
 	"strconv"
 	"strings"
 
+	"github.com/alanshaw/storetheindex/admin/model"
+	"github.com/alanshaw/storetheindex/rate"
 	"github.com/ipfs/go-cid"
 	"github.com/ipni/go-libipni/apierror"
-	"github.com/ipni/storetheindex/admin/model"
-	"github.com/ipni/storetheindex/rate"
 	"github.com/libp2p/go-libp2p/core/peer"
 	"github.com/multiformats/go-multiaddr"
 )

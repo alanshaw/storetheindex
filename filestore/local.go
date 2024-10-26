@@ -8,7 +8,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/ipni/storetheindex/fsutil"
+	"github.com/alanshaw/storetheindex/fsutil"
 )
 
 // Local is a file store that stores files in the local file system.

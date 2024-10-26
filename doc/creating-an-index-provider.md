@@ -7,7 +7,7 @@ but note that some of these can be generalized.
 
 1. Filecoin Storage Provider – Hosts data for folks and proves it via the
 Filecoin Network Chain. Aka Storage Provider.
-2. Indexer (aka [storetheindex](https://github.com/ipni/storetheindex)) – A service that can answer the question:
+2. Indexer (aka [storetheindex](https://github.com/alanshaw/storetheindex)) – A service that can answer the question:
 "Given this CID, who has a copy?". This is little more than a lookup table.
 3. Index Provider – A service that runs alongside a Storage Provider and tells
 the Indexer what content this storage provider has.
@@ -37,7 +37,7 @@ If an indexer knows about an index provider, it will occasionally poll the provi
 
 ## libp2p Index Provider
 
-In Go, it’s simplest to use [dagsync](https://github.com/ipni/storetheindex/blob/main/dagsync) to perform IPNI communications between providers and indexers.
+In Go, it’s simplest to use [dagsync](https://github.com/alanshaw/storetheindex/blob/main/dagsync) to perform IPNI communications between providers and indexers.
 
 For an index-provider you’ll want to setup a `dagsync` Publisher:
 

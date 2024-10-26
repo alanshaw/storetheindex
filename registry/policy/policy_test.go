@@ -3,7 +3,7 @@ package policy
 import (
 	"testing"
 
-	"github.com/ipni/storetheindex/config"
+	"github.com/alanshaw/storetheindex/config"
 	"github.com/libp2p/go-libp2p/core/peer"
 	"github.com/stretchr/testify/require"
 )

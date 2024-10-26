@@ -11,13 +11,13 @@ import (
 	"sync/atomic"
 	"time"
 
+	adminclient "github.com/alanshaw/storetheindex/admin/client"
+	"github.com/alanshaw/storetheindex/assigner/config"
+	"github.com/alanshaw/storetheindex/peerutil"
 	"github.com/ipfs/go-cid"
 	logging "github.com/ipfs/go-log/v2"
 	"github.com/ipni/go-libipni/announce"
 	ingestclient "github.com/ipni/go-libipni/ingest/client"
-	adminclient "github.com/ipni/storetheindex/admin/client"
-	"github.com/ipni/storetheindex/assigner/config"
-	"github.com/ipni/storetheindex/peerutil"
 	"github.com/libp2p/go-libp2p/core/host"
 	"github.com/libp2p/go-libp2p/core/peer"
 )

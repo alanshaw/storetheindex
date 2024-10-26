@@ -9,12 +9,12 @@ import (
 	"testing"
 	"time"
 
+	"github.com/alanshaw/storetheindex/config"
 	"github.com/ipfs/go-cid"
 	"github.com/ipfs/go-datastore"
 	leveldb "github.com/ipfs/go-ds-leveldb"
 	"github.com/ipfs/go-test/random"
 	"github.com/ipni/go-libipni/find/model"
-	"github.com/ipni/storetheindex/config"
 	"github.com/libp2p/go-libp2p/core/peer"
 	"github.com/multiformats/go-multiaddr"
 	"github.com/multiformats/go-multihash"

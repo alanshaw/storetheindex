@@ -2,11 +2,11 @@
 
 ## Deploy Indexers
 
-Deploy as many indexers as needed for current estimated index data and desired redundancy, and [configure](https://pkg.go.dev/github.com/ipni/storetheindex/config#Discovery) the indexers to use an Assigner Service, by setting the `UseAssigner` value to `true`. Nothing else needs to change from a stand-alone indexer deployment. As always, the indexers’ admin server should be available on a private network that is not externally accessible.
+Deploy as many indexers as needed for current estimated index data and desired redundancy, and [configure](https://pkg.go.dev/github.com/alanshaw/storetheindex/config#Discovery) the indexers to use an Assigner Service, by setting the `UseAssigner` value to `true`. Nothing else needs to change from a stand-alone indexer deployment. As always, the indexers’ admin server should be available on a private network that is not externally accessible.
 
 ## Deploy Assigner Service
 
-Deploy a single AS that is configured, in its configuration file, with an indexer [pool](https://pkg.go.dev/github.com/ipni/storetheindex@v0.5.7/assigner/config#Assignment) that has each [indexer’s information](https://pkg.go.dev/github.com/ipni/storetheindex@v0.5.7/assigner/config#Indexer). The assigner service should be able to receive advertisement announce messages from advertisement publishers, over gossip pub-sub and/or HTTP. If the AS is expected to relay direct HTTP announce messages, then configure the pool indexers as peers in the [peering](https://pkg.go.dev/github.com/ipni/storetheindex@v0.5.7/assigner/config#Config) section of the AS configuration, to allow the gossipsub messages to propagate across the pool. The AS is available as a sub-command of golang indexer implementation, `storetheindex`. 
+Deploy a single AS that is configured, in its configuration file, with an indexer [pool](https://pkg.go.dev/github.com/alanshaw/storetheindex@v0.5.7/assigner/config#Assignment) that has each [indexer’s information](https://pkg.go.dev/github.com/alanshaw/storetheindex@v0.5.7/assigner/config#Indexer). The assigner service should be able to receive advertisement announce messages from advertisement publishers, over gossip pub-sub and/or HTTP. If the AS is expected to relay direct HTTP announce messages, then configure the pool indexers as peers in the [peering](https://pkg.go.dev/github.com/alanshaw/storetheindex@v0.5.7/assigner/config#Config) section of the AS configuration, to allow the gossipsub messages to propagate across the pool. The AS is available as a sub-command of golang indexer implementation, `storetheindex`. 
 
 ## Add Indexers as Needed
 

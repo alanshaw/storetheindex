@@ -8,12 +8,12 @@ import (
 	"net"
 	"net/http"
 
+	"github.com/alanshaw/storetheindex/ingest"
+	"github.com/alanshaw/storetheindex/internal/httpserver"
+	"github.com/alanshaw/storetheindex/registry"
 	logging "github.com/ipfs/go-log/v2"
 	"github.com/ipni/go-indexer-core"
 	"github.com/ipni/go-libipni/announce/message"
-	"github.com/ipni/storetheindex/ingest"
-	"github.com/ipni/storetheindex/internal/httpserver"
-	"github.com/ipni/storetheindex/registry"
 )
 
 var log = logging.Logger("indexer/ingest")
