@@ -478,6 +478,8 @@ github.com/ipni/go-indexer-core v0.8.20 h1:OyicYSO0iuMzM+utHwqQMJ2tgX5bidSO2F9lz
 github.com/ipni/go-indexer-core v0.8.20/go.mod h1:rdKa4zgLvewOjHvPMwjyWacDvHZF1sBeY6nUAn6X4GU=
 github.com/ipni/go-libipni v0.5.26 h1:RK5vKOHsgQAdLGsQ+QIldVWlvqtDSKhInMZJzKz4+dQ=
 github.com/ipni/go-libipni v0.5.26/go.mod h1:Nx1bzZwfkKTGJjGIdKu0sOyzkM+jWGD1sTTvTbeNwoo=
+github.com/ipni/go-libipni v0.6.14 h1:V3iiAPDdAkjGCVC7/Ka8NOjAt8dFO/WXoaRUV7w4Svc=
+github.com/ipni/go-libipni v0.6.14/go.mod h1:YAcJzgEa37xeFl/O8Am5znfbrYME2J+3B8Lb3dfz620=
 github.com/jackpal/go-nat-pmp v1.0.2 h1:KzKSgb7qkJvOUTqYl9/Hg/me3pWgBmERKrTGD7BdWus=
 github.com/jackpal/go-nat-pmp v1.0.2/go.mod h1:QPH045xvCAeXUZOxsnwmrtiCoxIr9eob+4orBN1SBKc=
 github.com/jbenet/go-cienv v0.1.0 h1:Vc/s0QbQtoxX8MwwSLWWh+xNNZvM3Lw7NsTcHrvvhMc=
